@@ -1,0 +1,55 @@
+import React from "react";
+import { Card, CardContent } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+
+export default function MindlogHome() {
+  return (
+    <main className="min-h-screen bg-white text-black font-sans">
+      <header className="border-b shadow-sm sticky top-0 bg-white z-50">
+        <div className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+          <h1 className="text-2xl font-bold tracking-tight">Mindlog</h1>
+          <nav className="space-x-6">
+            <a href="#" className="hover:underline">Essays</a>
+            <a href="#" className="hover:underline">Topics</a>
+            <a href="#" className="hover:underline">About</a>
+            <a href="#" className="hover:underline">Subscribe</a>
+          </nav>
+        </div>
+      </header>
+
+      <section className="bg-gray-100 py-20 px-4">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-4xl font-semibold mb-4">Ideas that change how you think</h2>
+          <p className="text-lg text-gray-700 mb-6">
+            Mindlog features thought-provoking essays on philosophy, science, culture, and the human condition.
+          </p>
+          <Input placeholder="Search essays..." className="max-w-md mx-auto" />
+        </div>
+      </section>
+
+      <section className="max-w-6xl mx-auto px-4 py-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {[1, 2, 3, 4, 5, 6].map((id) => (
+          <Card key={id} className="hover:shadow-lg transition-shadow">
+            <CardContent className="p-4">
+              <h3 className="text-xl font-semibold mb-2">Essay Title {id}</h3>
+              <p className="text-gray-600 mb-4">A short description of this thought-provoking essay to engage readers.</p>
+              <Button variant="link" className="p-0 h-auto">Read more →</Button>
+            </CardContent>
+          </Card>
+        ))}
+      </section>
+
+      <footer className="bg-gray-900 text-white py-8 px-4">
+        <div className="max-w-6xl mx-auto text-center">
+          <p className="mb-2">© {new Date().getFullYear()} Mindlog. All rights reserved.</p>
+          <nav className="space-x-4 text-sm">
+            <a href="#" className="hover:underline">Privacy</a>
+            <a href="#" className="hover:underline">Terms</a>
+            <a href="#" className="hover:underline">Contact</a>
+          </nav>
+        </div>
+      </footer>
+    </main>
+  );
+}
