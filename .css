@@ -1,0 +1,52 @@
+import React from 'react';
+
+const EssayPage = () => {
+  return (
+    <div className="max-w-4xl mx-auto px-4 py-8">
+      <h1 className="text-4xl font-bold mb-4">Fears of the Undead</h1>
+      <p className="text-lg text-gray-700 mb-2">By Mindlog</p>
+
+      <p className="mb-4">
+        In 1612, the English philosopher Francis Bacon opined that adults fear death just like children who fear to go into the dark. ‘And as that natural fear in children is increased with tales,’ he wrote, ‘so is the other.’
+      </p>
+
+      <p className="mb-4">
+        Today, our fears about death are still watered by depictions of painful, sorrowful entrances into the unknown, just as they were in Bacon’s time. ‘Groans, and convulsions, and a discoloured face, and friends weeping, and blacks, and obsequies, and the like, shew death terrible,’ he wrote. However, for Bacon, our fears are not helpful: ‘It is as natural to die as to be born.’
+      </p>
+
+      <p className="mb-4">
+        But what happens when death does not come, even after the groans and convulsions and obsequies? What happens when the end is not really the end? How should we understand fears not simply of dying, but of the dead themselves?
+      </p>
+
+      <p className="mb-4">
+        In the centuries before Bacon was writing, these fears had spread across Europe, propelled by tales of buried bodies that had returned to walk among the living. Following the bubonic plague, which may have killed an estimated 25 million people in the 14th century, stories of people rising from the grave seemed to gain new traction. And by the 16th and 17th centuries, tales of hungry vampires and vengeful revenants travelled across the continent, amplifying fears of the reanimated dead.
+      </p>
+
+      <p className="mb-4">
+        More recently, these stories have become little more than fantastic scaffolding for our modern entertainment. Think of the undying monsters from 19th-century gothic melodramas, such as Mary Shelley’s Frankenstein (1818) or John Polidori’s The Vampyre (1819). Consider the fiendish figures who stalk the pages of serialised penny dreadfuls, such as Varney the Vampire; or, The Feast of Blood (1845-47), a nearly 667,000-word slasher-horror novel that followed the adventures of the blood-sucking Sir Francis Varney. We might also think of the 20th-century boom in Hollywood films and television series depicting the undead of all kinds, beginning with Nosferatu: A Symphony of Horror (1922).
+      </p>
+
+      <p className="mb-4">
+        This, at least, is how I once understood the origins of our modern ideas about the undead. I believed they were created and enlarged by the medieval and early modern European imaginations. But after reading about Neolithic burials in which bodies had been pinned down with stones, seemingly to stop them from rising, I began to doubt my explanation. How deep do these fears go, I wondered?
+      </p>
+
+      <p className="mb-4">
+        In the 21st century, researchers are continuing to find traces of such fears buried across the archaeological record. Though it’s highly unlikely that people from 10,000 years ago conceived of ‘vampires’ and other undead creatures in the same way we do, the ‘Archaeology of Fear’, as the funerary archaeologist Anastasia Tsaliki calls it, seems to link us with the past in unexpected ways.
+      </p>
+
+      <p className="mb-4">
+        Such fears are scribed deep into European history and soil. They are written into my ancestors’ bones. And they lead us to an understanding of death that greatly exceeds the one described by Bacon in 1612. Not only is it ‘as natural to die as to be born’. For much of our species’ history, it may also have been just as ‘natural’ to fear the dead.
+      </p>
+
+      <p className="mb-4">
+        According to growing archaeological evidence, this fear appears to stretch far beyond written history into deep time. And that leads to a much more complex and uncertain question: where did such fears come from? To understand why early humans seemed to fear the dead, we first need to consider the long history of intentional burial. Only through excavated graves, makeshift tombs and other forms of interment can we begin making sense of prehistoric anxieties surrounding the dead. However, this history is not always straightforward: though we now have a rough idea of when burial became widespread, researchers are still vigorously debating exactly when humans began deliberately interring their dead.
+      </p>
+
+      <p className="mb-4">
+        One of the most controversial claims is that intentional burials may have been practised as early as 240,000 years ago by one of our hominin relatives, Homo naledi. This was proposed in 2023 after a team of researchers, led by the paleoanthropologist Lee Berger, found a minimum of 15 Homo naledi skeletons in the caverns of South Africa’s Rising Star cave system. The team claims that the excavated remains show ‘a consistent pattern of differentiation’ – that is, the bodies were intentionally buried. However, this interpretation has since been challenged by other archaeologists who argue that there is no sedimentological evidence showing that the burials were deliberate. Some experts have split the difference by remaining open to the idea that the bodies were deliberately dragged into the cave after death and subsequently ‘buried’ through natural deposition. Research at Rising Star is ongoing.
+      </p>
+    </div>
+  );
+};
+
+export default EssayPage;
